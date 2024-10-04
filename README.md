@@ -17,7 +17,7 @@ Want to contribute to this repository? Follow these simple steps:
 
 1. **Clone this repository** to your local machine:
    ```bash
-   git clone https://github.com/your-username/competitive-programming.git
+   git clone https://github.com/sehtaj/competitive-programming.git
    ```
 2. **Open the project in Visual Studio Code** or your preferred code editor.
 
