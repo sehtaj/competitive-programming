@@ -1,8 +1,5 @@
 #include<stdio.h>
 
-
-
-
 /*Problem: Write a function that prints all pairs of elements in an array.
     Input: nums = [1, 2, 3]
     Output: (1, 2), (1, 3), (2, 3)
