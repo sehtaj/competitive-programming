@@ -37,4 +37,3 @@ int main(void) {
     printf("Variance: %.2f\n", var(b, 2));  // Should print "Variance: 0.67" (approximately)
   return 0;
 }
-
