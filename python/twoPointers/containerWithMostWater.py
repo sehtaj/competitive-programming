@@ -1,3 +1,8 @@
+# maxArea: List[int] -> int
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 def maxArea(height):
     l = 0
     r = len(height) - 1
@@ -16,6 +21,10 @@ def maxArea(height):
 
     return maximumArea
 
-print(maxArea([1,8,6,2,5,4,8,3,7]))
-print(maxArea([3,6,1]))
+#edge cases
+# maxArea([])              => 0         # No lines
+# maxArea([1])             => 0         # Only one line
+# maxArea([1,1])           => 1         # Two equal lines
+# maxArea([1,8,6,2,5,4,8,3,7])  =>49    # General case
+# maxArea([5,4,3,2,1])      =>  6         # Decreasing heights
 
