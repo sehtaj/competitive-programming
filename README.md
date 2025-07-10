@@ -7,9 +7,11 @@ Feel free to explore or use these solutions as references for your own competiti
 ## Repository Structure
 
 The repository is organized as follows:
-- Each folder corresponds to a **programming language** (e.g., Python, C++, Java).
-- Within each folder, there are files representing the **solutions** to various problems solved in that particular language.
-- File names follow the format `problem_name.extension` (e.g., `example.py`).
+
+* Each top-level folder corresponds to a **programming language** (e.g., Python, C++, Java).
+* Inside each language folder, there are multiple **topic-specific** subfolders representing the type of problems.
+* Inside each topic folder, there are files containing **solutions** to individual problems.
+* File names follow the format: `problem_name.extension` (e.g., `example.py`)
 
 ## How to Contribute
 
