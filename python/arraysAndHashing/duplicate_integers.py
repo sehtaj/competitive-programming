@@ -1,7 +1,7 @@
 def arr(nums):
     """
     This function checks if any value appears more than once in the given array.
-    
+
     
     It uses a dictionary (hashmap) to keep track of the numbers we have encountered.
     If we encounter the same number again, it means there's a duplicate, and we return True.
