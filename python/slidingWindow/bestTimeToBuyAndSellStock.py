@@ -1,4 +1,4 @@
-# maxProfit: List[int], int -> int
+# maxProfit: List[int] -> int
 
 # Time Complexity: O(n)
 # Space Complexity: O(1)
