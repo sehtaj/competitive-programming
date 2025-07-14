@@ -10,7 +10,7 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def reorderList(head):
+    def reorderList(self, head):
         if not head or not head.next:
             return
         

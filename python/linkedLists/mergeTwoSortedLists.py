@@ -10,7 +10,7 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def mergeTwoLists(l1, l2):
+    def mergeTwoLists(self, l1, l2):
         dummy = ListNode()
         curr = dummy
 

@@ -10,7 +10,7 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def reverseList(head):
+    def reverseList(self, head):
         curr = head
         prev = None
 
