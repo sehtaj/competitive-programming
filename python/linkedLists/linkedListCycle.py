@@ -22,8 +22,6 @@ class Solution:
         return False
     
 #edge cases
-# Edge Cases
-
 # Empty list: (head = None)                             Expected:  False
 # Single node, no cycle(1 -> None)                      Expected:  False
 # Multiple nodes, no cycle(1 -> 2 -> 3 -> 4 -> None)    Expected:  False
