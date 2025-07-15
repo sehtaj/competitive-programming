@@ -1,4 +1,4 @@
-# maxVowels: str, int -> int
+# longestKUniqueSubstring: str, int -> int
 
 # Time Complexity: O(n)
 # Space Complexity: O(k)
