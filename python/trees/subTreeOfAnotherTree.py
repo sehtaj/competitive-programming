@@ -3,11 +3,12 @@
 # Space Complexity: O(h), where h is the height of the main tree (due to recursion stack)
 
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 class Solution:
     def isSubtree(self, root, subRoot):
         if not root or not subRoot:
@@ -34,32 +35,6 @@ class Solution:
             return True
         else:
             return False
-            
-            
-# isSubtree: TreeNode, TreeNode -> bool
-# Time Complexity: O(m * n)
-# Space Complexity: O(h), where h is height of the main tree
-
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-
-class Solution:
-    def isSubtree(self, root, subRoot):
-        if not root:
-            return False
-        if self.isSameTree(root, subRoot):
-            return True
-        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
-
-    def isSameTree(self, p, q):
-        if not p and not q:
-            return True
-        if not p or not q or p.val != q.val:
-            return False
-        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 
 # edge cases
 
@@ -110,7 +85,7 @@ class Solution:
 #         1   2
 # subRoot =   4
 #            / \
-#           2   1  # ❌ reversed
+#           2   1  # reversed
 # Output: False
 
 # 7. subRoot not found at all
