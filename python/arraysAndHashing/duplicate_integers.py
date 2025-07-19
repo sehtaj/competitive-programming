@@ -1,19 +1,10 @@
-def arr(nums):
-    """
-    This function checks if any value appears more than once in the given array.
+# findDuplicate: List[int] -> bool
 
-    
-    It uses a dictionary (hashmap) to keep track of the numbers we have encountered.
-    If we encounter the same number again, it means there's a duplicate, and we return True.
-    Otherwise, we return False after checking all elements.
-    
-    Parameters:
-    nums (List[int]): A list of integers.
-    
-    Returns:
-    bool: True if there are duplicates, False otherwise.
-    """
-    
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+def findDuplicate(nums):
+
     # Create an empty dictionary to track numbers we've seen
     seen = {}
     

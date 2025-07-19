@@ -1,6 +1,3 @@
-"""groupAnagrams(strs) takes a list of strings and returns a list of lists of strings where each list contains 
-all the anagrams of a particular string in the input list."""
-
 #groupAnagrams: List[str] -> List[List[str]]
 
 #Time: O(n * mlogm) where n is the number of strings in the input list and m is the length of the longest string in the input list
