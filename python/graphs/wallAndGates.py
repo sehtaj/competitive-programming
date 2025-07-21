@@ -9,7 +9,7 @@ def bfs(grid, q, directions, rows, cols):
 
         for direction in directions:
             nextI = currI + direction[0]
-            nextJ = currJ + direction[1]
+            nextJ = currJ + direction[1]  
 
             if (
                 0 <= nextI < rows and
