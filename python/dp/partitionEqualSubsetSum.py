@@ -27,7 +27,7 @@ def canPartition(nums):
             else:
                 dp[i][j] = dp[i - 1][j]
 
-    return dp[n, target]
+    return dp[n][target]
 
 # edge cases
 # 1. Total sum is odd -> cannot partition
